@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+  <!-- ==============================================
+  Title and Meta Tags
+  =============================================== -->
+  <meta charset="utf-8">
+  <title>Elizabeth Korthof | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- ==============================================
+  Favicons
+  =============================================== -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <!-- ==============================================
+  CSS
+  =============================================== -->    
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/flexslider.css">
+  <link id="main" rel="stylesheet" href="assets/css/style.css">
+  		
+  <!-- ==============================================
+  Fonts
+  =============================================== -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+  <!-- ==============================================
+  JS
+  =============================================== -->
+  			
+  <!--[if lt IE 9]>
+  <script src="assets/js/libs/respond.min.js"></script>
+  <![endif]-->	
+  <script type="text/javascript" src="assets/js/libs/modernizr.min.js"></script>
+</head>
+  
+<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+<!--=== PAGE PRELOADER ===-->
+<div id="page-loader"><span class="page-loader-gif"></span></div>
+<!-- ==============================================
+MAIN NAV
+=============================================== -->
+<div id="main-nav" class="navbar navbar-fixed-top">
+  <div class="container">
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+  <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+  </button>
+  					
+  <!-- ======= LOGO ========-->
+  <!-- <a class="navbar-brand scrollto" href="#home">EK</a> -->
+  </div>			
+  <div id="site-nav" class="navbar-collapse collapse">
+  <ul class="nav navbar-nav navbar-right">
+  <li>
+  <a href="#home" class="scrollto">Home</a>
+  </li>
+  <li>
+  <a href="#portfolio" class="scrollto">My Work</a>
+  </li>
+  <li>
+  <a href="#about" class="scrollto">About Me</a>
+  </li>
+  <li>
+  <a href="#contact" class="scrollto">Contact</a>
+  </li>
+  </ul>
+  </div><!--End navbar-collapse -->
+  </div><!--End container -->
+</div><!--End main-nav -->
+		
+<!-- ==============================================
+HEADER
+=============================================== -->
+<header id="home">
+  <div class="container">
+  <h1 class="text-center">Elizabeth Korthof</h1>
+  <br>
+  <h2 class="text-center">WEB DEVELOPER</h2>
+  </div>
+</header><!--End header -->
+
+<!-- ==============================================
+Portfolio Section
+=============================================== -->
+<section id="portfolio" class="grid">
+<div class="light-overlay">
+<h1 class="col-text-lg">My Work</h1>
+<h3>Sites I've developed</h3>
+</div>
+	
+    	
+<figure class="effect-milo wow fadeIn" data-wow-duration="1s"> <!-- Portfolio 1 -->
+  <img src="assets/images/portfolio/01.jpg" alt="01_img"/> <!-- Your image here -->
+  <figcaption> <!-- Caption -->
+  <p>onBeat is a web application designed to help users make playlists based on song tempo.</p>
+  <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">View more</a> <!-- Larger image popup -->
+  </figcaption> <!-- End caption -->   
+</figure> <!-- End portfolio 1 -->
+
+<figure class="effect-milo wow fadeIn" data-wow-duration="2s"> <!-- Portfolio 2 -->
+  <img src="assets/images/portfolio/03.jpg" alt="02_img"/> <!-- Your image here -->
+  <figcaption> <!-- Caption -->
+  <p>Can't Be Bought was designed to educate users about human trafficking throughout the world.</p>
+  <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">View more</a><!-- Larger image popup -->
+  </figcaption> <!-- End caption -->   
+</figure> <!-- End portfolio 2 -->
+      
+<figure class="effect-milo wow fadeIn" data-wow-duration="3s"> <!-- Portfolio 3 -->
+<img src="assets/images/portfolio/05.jpg" alt="03_img"/> <!-- Your image here -->
+<figcaption> <!-- Caption -->
+<p>docket is a single page application for users to find events and schedule them into a calendar.</p>
+<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">View more</a>
+</figcaption> <!-- End caption -->   
+</figure> <!-- End portfolio 3 -->
+</section> <!-- End Portfolio Section -->
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+<div class="rl">
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2">
+<div class="modal-body">
+<!-- Project Details Go Here -->
+<h2>onBeat</h2>
+<img class="img-responsive" src="assets/images/portfolio/02.jpg" alt="Image">
+<p class="lead">OnBeat is a web application designed to help users make playlists based on song tempo.</p>
+<p><strong>Interesting Details:</strong></p>
+<ul>
+<li>Used HTTParty gem to query data from the EchoNest API based on user search terms.</li>
+<li>User authentication written from scratch using Bcrypt-Ruby gem to secure passwords.</li>
+<li>Utilized Test-Driven-Development practices by writing a full test suite using rspec.</li>
+<br>
+<p><strong>Built Using:</strong></p>
+<p>Ruby on Rails, PostgreSQL, HTML5 and CSS3 during a one week sprint.</p>
+<ul class="list-inline">
+<li><strong>Created:</strong> October 2014</li>
+<li><a href="https://onbeat.herokuapp.com" target="_blank"><strong>View on Heroku</strong></a></li>
+<li><strong>The code:</strong><a href="https://github.com/eliza-irene/onbeat" target="_blank"><strong> Github</strong></a></li>
+</ul>
+<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+<div class="rl">
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2">
+<div class="modal-body">
+<!-- Project Details Go Here -->
+<h2>Can't Be Bought</h2>
+<img class="img-responsive" src="assets/images/portfolio/04.jpg" alt="Image">
+<p class="lead">Can’t Be Bought is a long-page scrolling site designed to educate users about human trafficking throughout the world by presenting data from multiple sources in a simplified and meaningful format.</p>
+<p><strong>Interesting Details:</strong></p>
+<ul>
+<li>Created dynamic data visualizations using HighCharts.js and d3.js; gathered data from various world government reports.</li>
+<li>Developed algorithms based on statistical probability to help the user understand the uncontrollable and random nature of the topic. Interactive graphics activate the algorithms when a user clicks.</li>
+<br>
+<p><strong>Built Using:</strong></p>
+<p>Ruby/AngularJS on Rails, MongoDB, jQuery, Adobe Illustrator, HTML5 and CSS3 during a one week sprint in a two-person team.</p>
+<ul class="list-inline">
+<li><strong>Created:</strong> December 2014</li>
+<li><a href="https://cantbebought.herokuapp.com/#/dashboard" target="_blank"><strong>View on Heroku</strong></a></li>
+<li><strong>The code:</strong><a href="https://github.com/amandawraymond/Cant-Be-Bought" target="_blank"><strong> Github</strong></a></li>
+</ul>
+<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal-content">
+<div class="close-modal" data-dismiss="modal">
+<div class="lr">
+<div class="rl">
+</div>
+</div>
+</div>
+           
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2">
+<div class="modal-body">
+<!-- Project Details Go Here -->
+<h2>docket</h2>
+<img class="img-responsive docket-img" src="assets/images/portfolio/06.jpg" alt="Image">
+<p class="lead">Docket is a single page application for users to find events and schedule them into a calendar.</p>
+<p><strong>Interesting Details:</strong></p>
+<ul>
+<li>Built nested routing into the page using AngularUI-Router, which allowed me to organize the site around nested states.</li>
+<li>Used UI-Calendar wrapper for the jQuery-based Full Calendar to display events saved by users into a monthly and weekly formatted calendar.</li>
+<li>Utilized Eventful API calls for users to search events based on date and location.</li>
+<br>
+<p><strong>Built Using:</strong></p>
+<p>Ruby/AngularJS on Rails, PostgreSQL, jQuery, HTML5 and CSS3 during a one week sprint in a two-person team.</p>
+<ul class="list-inline">
+<li><strong>Created:</strong> November 2014</li>
+<li><a href="https://docket-app.herokuapp.com" target="_blank"><strong>View on Heroku</strong></a></li>
+<li><strong>The code:</strong><a href="https://github.com/eliza-irene/docket" target="_blank"><strong> Github</strong></a></li>
+</ul>
+<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+		 
+<!-- ==============================================
+About Section
+=============================================== -->
+<section id="about" class="padding-top light-overlay">
+  <div class="container">
+    <div class="row col-sm-12 text-center scrollimation fade-up">
+      <h1 class="col-text-lg">About Me</h1>
+      <div class="row text-center">
+        <div class="col-sm-1 profile-pic"></div>
+        <div class="col-sm-8">
+          <p class="lead">Skills: HTML/CSS, AngularJS, JavaScript, Ruby</p>
+          <p>With a background in fine arts, and a previous career in education, I've developed a diverse set of skills that lend well to web development. Although I have full-stack abilities, front-end is where I find myself to be happiest. Creating experiences that are enjoyable — both visually and functionally — is incredibly exciting to me. Always looking for ways to grow, I enjoy continuously learning and improving on my technical skill set.</p>
+        </div>
+        <div class="col-sm-8">
+          <ul class="about-social">
+          <li><a href="https://www.linkedin.com/in/elizabethkorthof" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/e_irene_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://github.com/eliza-irene " target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+  </div>
+</section>
+<!-- ==============================================
+Contact
+=============================================== -->			
+<section id="contact" class="add-padding light-overlay">
+  <div class="container text-center">
+  <div class="row">
+  <div class="col-sm-12 text-center scrollimation fade-up d1 padding-bottom ">
+  <h1 class="col-text-lg">Contact</h1>
+  <p class="lead">Can't wait for the next exciting opportunity! Could it be yours?</p>
+  <p>Complete the form below and I'll be in touch.  Thanks for stopping by.</p>
+  </div>
+  				
+  <!--=== Contact Form ===-->
+  <form id="contact-form" class="scrollimation fade-left d3" action="assets/php/submit.php" method="post" novalidate>
+  <div class="form-group col-sm-6 ">
+  <label class="control-label" for="contact-name">Name</label>
+  <div class="controls">
+  <input id="contact-name" name="contactName" placeholder="Your name" class="form-control requiredField" data-new-placeholder="Your name" type="text" data-error-empty="Please enter your name" >
+  <i class="fa fa-user"></i>
+  </div>
+  </div><!-- End name input -->
+  						
+  <div class="form-group col-sm-6 ">
+  <label class="control-label" for="contact-mail">Email</label>
+  <div class=" controls">
+  <input id="contact-mail" name="email" placeholder="Your email" class="form-control requiredField" data-new-placeholder="Your email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+  <i class="fa fa-envelope"></i>
+  </div>
+  </div><!-- End email input -->
+  						
+  <div class="form-group col-sm-12 ">
+  <label class="control-label" for="contact-message">Message</label>
+  <div class="controls">
+  <textarea id="contact-message" name="comments"  placeholder="Your message" class="form-control requiredField" data-new-placeholder="Your message" rows="6" data-error-empty="Please enter your message"></textarea>
+  <i class="fa fa-comment"></i>
+  </div>
+  </div><!-- End textarea -->
+  						
+  <p class="col-sm-12 "><button name="submit" type="submit" class="btn btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
+  <input type="hidden" name="submitted" id="submitted" value="true" />
+  </form><!-- End contact-form -->
+  </div>
+  </div>
+</section>
+<!-- ==============================================
+Footer
+=============================================== -->
+<footer>
+<div class="container">
+<div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 company-details">
+<div class="icon-top red-text">
+<i class="icon-fontawesome-webfont-302"></i>
+</div>© 2014 - All rights reserved.</div>
+<!-- /#column --> 	
+<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 copyright">
+<ul class="social">
+<li><a href="https://www.linkedin.com/in/elizabethkorthof" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+<li><a href="https://twitter.com/e_irene_" target="_blank"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://github.com/eliza-irene " target="_blank"><i class="fa fa-github"></i></a></li>
+</ul>
+</div>
+<!-- /column --> 
+</div>
+<!-- /.container -->  
+</footer>
+<!-- /footer --> 
+<!-- ==============================================
+Scripts
+=============================================== -->		
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.8.2.min.js">\x3C/script>')</script>
+<script src="assets/js/libs/bootstrap.min.js"></script>
+<script src="assets/js/jquery.scrollto.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.masonry.min.js"></script>
+<script src="assets/js/jquery.flexslider.min.js"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/twitterFetcher_v10_min.js"></script>
+<script src="assets/js/contact.js"></script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>
