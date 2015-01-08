@@ -250,6 +250,8 @@ Header Styles
     height: 200px;
     width: 200px;
     box-shadow: 3px 5px 8px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 ul.about-social {
     margin: 0px;
@@ -672,6 +674,7 @@ Button
 .portfolio-modal .modal-content ul.list-inline li{
     padding-right: 25px;
     padding-left: 25px;
+    margin-bottom: 15px;
 }
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
