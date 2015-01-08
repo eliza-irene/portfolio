@@ -253,23 +253,23 @@ Header Styles
     margin: 0 auto;
     margin-bottom: 20px;
 }
-ul.about-social {
+ul.contact-social {
     margin: 0px;
     padding: 0px;
 }
-.about-social li {
+.contact-social li {
     display: inline-block;
     margin: 5px 20px;
 }
-.about-social li a {
+.contact-social li a {
     color: #000;
-    font-size: 18px;
+    font-size: 30px;
 }
-.about-social li a:hover {
+.contact-social li a:hover {
     color: #F0AD4E;
 }
-.about-social i {
-    font-size: 20px;
+.contact-social i {
+    font-size: 30px;
 }
 
 /* ==========================================================================
@@ -721,36 +721,17 @@ footer {
     background: rgba(255, 255, 255, 0.8);
     box-shadow: 0 0 3px rgba(0,0,0,0.2);
 }
-.company-details {
+.footer-details {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.company-details .icon-top {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-.copyright {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background: #f5f5f5;
-}
-ul.social {
-    margin: 0px;
-}
-.social li {
+.footer-details li {
     display: inline-block;
     margin: 5px 10px;
-}
-.social li a {
     color: #ccc;
-    font-size: 18px;
 }
-.social li a:hover {
-    color: #FFCC84;
-}
-.social i {
-    font-size: 30px;
-    padding-left: 30px;
+.footer-details li a{
+    color: #FDCA95;
 }
 /* ==========================================================================
 Media Queries

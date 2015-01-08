@@ -9,6 +9,7 @@ $ajax = $_POST['ajax'];
             $_POST[$k]=htmlspecialchars(strip_tags($_POST[$k]));
             /* escape the special chars */
     }
+
     require "phpmailer/class.phpmailer.php";
     $emailAddress = 'elizabeth.korthof@gmail.com';
 
@@ -21,7 +22,8 @@ $ajax = $_POST['ajax'];
              Mobile:    '.$_POST['mobile'].'<br />Website:  '.$_POST['website'].'<br />Offer: '.$_POST['offer'].'';
 
             $mail = new PHPMailer();/* using PHPMailer */
-            $mail->IsMail();
+            $mail->IsSMTP();
+            $mail->SMTPAuth = true;
             $mail->AddReplyTo($_POST['email'], $_POST['name']);
             $mail->AddAddress($emailAddress);
             $mail->SetFrom($_POST['email'], $_POST['name']);
